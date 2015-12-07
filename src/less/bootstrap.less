@@ -1,0 +1,69 @@
+// == Look and feel
+
+@body-bg: #FAFAF5;
+//@brand-primary: #E68A00;
+@brand-primary: #eb1d48;
+
+
+@font-family-sans-serif:  'Open Sans', sans-serif;
+@font-family-special: 	  'Oswald', sans-serif;
+@headings-font-weight:    300;
+@btn-font-weight:         300;
+@font-size-base:          16px;
+@grid-gutter-width:       80px;
+
+// == Components
+
+@border-radius-base:        1px;
+@border-radius-large:       2px;
+@border-radius-small:       1px;
+
+// == Forms
+
+@input-border-focus: @brand-primary;
+@input-height-base: 50px;
+
+.form-control-focus(@color: @input-border-focus) {
+	@color-rgba: rgba(red(@color), green(@color), blue(@color), .6);
+		
+	&:focus {
+		border-color: @color;
+		outline: 0;
+		.box-shadow(none);
+	}
+}
+
+.btn-primary {
+	background: transparent;
+	border: 2px solid @brand-primary;
+	color: @brand-primary;
+
+	.transition(all ease-in-out 0.3s);
+}
+
+.form-control {
+	.box-shadow(none);
+	font-size: 16px;
+	padding: 12px 18px;
+}
+
+.loading-spinner {
+	animation: elastic-rotation 1.33s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+
+label {
+	text-transform: uppercase;
+}
+
+span.required {
+	color: #f3f3f3;
+}
+
+@keyframes elastic-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
