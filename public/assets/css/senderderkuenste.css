@@ -1086,12 +1086,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #eb1d48;
+  color: #45DCCD;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #ac0f30;
+  color: #22b3a4;
   text-decoration: underline;
 }
 a:focus {
@@ -1327,11 +1327,11 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #eb1d48;
+  color: #45DCCD;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #c41137;
+  color: #26c8b8;
 }
 .text-success {
   color: #3c763d;
@@ -1363,11 +1363,11 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #eb1d48;
+  background-color: #45DCCD;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #c41137;
+  background-color: #26c8b8;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -2554,13 +2554,13 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #eb1d48;
+  border-color: #45DCCD;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(235, 29, 72, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(235, 29, 72, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(69, 220, 205, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(69, 220, 205, 0.6);
 }
 .form-control:focus {
-  border-color: #eb1d48;
+  border-color: #45DCCD;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -3110,26 +3110,26 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #eb1d48;
-  border-color: #db133d;
+  background-color: #45DCCD;
+  border-color: #30d8c7;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #c41137;
-  border-color: #66091c;
+  background-color: #26c8b8;
+  border-color: #167269;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #c41137;
-  border-color: #a30e2d;
+  background-color: #26c8b8;
+  border-color: #20aa9d;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #c41137;
-  border-color: #a30e2d;
+  background-color: #26c8b8;
+  border-color: #20aa9d;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3141,8 +3141,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #a30e2d;
-  border-color: #66091c;
+  background-color: #20aa9d;
+  border-color: #167269;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3158,11 +3158,11 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #eb1d48;
-  border-color: #db133d;
+  background-color: #45DCCD;
+  border-color: #30d8c7;
 }
 .btn-primary .badge {
-  color: #eb1d48;
+  color: #45DCCD;
   background-color: #fff;
 }
 .btn-success {
@@ -3394,7 +3394,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #eb1d48;
+  color: #45DCCD;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3415,7 +3415,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #ac0f30;
+  color: #22b3a4;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3561,7 +3561,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #eb1d48;
+  background-color: #45DCCD;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -3995,7 +3995,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #eb1d48;
+  border-color: #45DCCD;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4088,7 +4088,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #eb1d48;
+  background-color: #45DCCD;
 }
 .nav-stacked > li {
   float: none;
@@ -4712,7 +4712,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #eb1d48;
+  color: #45DCCD;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -4733,7 +4733,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #ac0f30;
+  color: #22b3a4;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -4745,8 +4745,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  background-color: #eb1d48;
-  border-color: #eb1d48;
+  background-color: #45DCCD;
+  border-color: #45DCCD;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -4863,11 +4863,11 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #eb1d48;
+  background-color: #45DCCD;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #c41137;
+  background-color: #26c8b8;
 }
 .label-success {
   background-color: #5cb85c;
@@ -4931,7 +4931,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #eb1d48;
+  color: #45DCCD;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -5006,7 +5006,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #eb1d48;
+  border-color: #45DCCD;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -5120,7 +5120,7 @@ a.thumbnail.active {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  background-color: #eb1d48;
+  background-color: #45DCCD;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5283,8 +5283,8 @@ button.list-group-item {
 .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #eb1d48;
-  border-color: #eb1d48;
+  background-color: #45DCCD;
+  border-color: #45DCCD;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -5300,7 +5300,7 @@ button.list-group-item {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #fcd8e0;
+  color: #f1fcfb;
 }
 .list-group-item-success {
   color: #3c763d;
@@ -5680,22 +5680,22 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-primary {
-  border-color: #eb1d48;
+  border-color: #45DCCD;
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #eb1d48;
-  border-color: #eb1d48;
+  background-color: #45DCCD;
+  border-color: #45DCCD;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #eb1d48;
+  border-top-color: #45DCCD;
 }
 .panel-primary > .panel-heading .badge {
-  color: #eb1d48;
+  color: #45DCCD;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #eb1d48;
+  border-bottom-color: #45DCCD;
 }
 .panel-success {
   border-color: #d6e9c6;
@@ -6732,8 +6732,8 @@ button.close {
 }
 .btn-primary {
   background: transparent;
-  border: 2px solid #eb1d48;
-  color: #eb1d48;
+  border: 2px solid #45DCCD;
+  color: #45DCCD;
   -webkit-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
@@ -7005,3 +7005,383 @@ footer {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 30px;
 }
+.h2,
+h2 {
+  font-size: 28px;
+  color: #45DCCD;
+}
+/*! Blue Monday Skin for jPlayer 2.9.2 ~ (c) 2009-2014 Happyworm Ltd ~ MIT License */
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.jplayer.org
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010 - 2014 Happyworm Ltd
+ * Licensed under the MIT license.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 5.1 (jPlayer 2.8.0)
+ * Date: 13th November 2014
+ */
+#jp_container_1 {
+  background-color: #333;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 5000px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.jp-play {
+  width: 200px;
+  height: 200px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 214px;
+  display: inline-block;
+}
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+  /* Disable the browser focus highlighting. */
+  outline: none;
+}
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+  /* Disable the browser CSS3 focus highlighting. */
+  border: 0;
+}
+.jp-audio {
+  width: 420px;
+}
+.jp-audio-stream {
+  width: 182px;
+}
+.jp-video-270p {
+  width: 480px;
+}
+.jp-video-360p {
+  width: 640px;
+}
+.jp-video-full {
+  /* Rules for IE6 (full-screen) */
+  width: 480px;
+  height: 270px;
+  /* Rules for IE7 (full-screen) - Otherwise the relative container causes other page items that are not position:static (default) to appear over the video/gui. */
+  position: static !important;
+  position: relative;
+}
+/* The z-index rule is defined in this manner to enable Popcorn plugins that add overlays to video area. EG. Subtitles. */
+.jp-video-full div div {
+  z-index: 1000;
+}
+.jp-video-full .jp-jplayer {
+  top: 0;
+  left: 0;
+  position: fixed !important;
+  position: relative;
+  /* Rules for IE6 (full-screen) */
+  overflow: hidden;
+}
+.jp-video-full .jp-gui {
+  position: fixed !important;
+  position: static;
+  /* Rules for IE6 (full-screen) */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  /* 1 layer above the others. */
+}
+.jp-video-full .jp-interface {
+  position: absolute !important;
+  position: relative;
+  /* Rules for IE6 (full-screen) */
+  bottom: 0;
+  left: 0;
+}
+.jp-interface {
+  position: relative;
+  width: 100%;
+}
+/* @group CONTROLS */
+.jp-controls-holder {
+  clear: both;
+  width: 440px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  top: -8px;
+  /* This negative value depends on the size of the text in jp-currentTime and jp-duration */
+}
+.jp-interface .jp-controls {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* @end */
+/* @group progress bar */
+.jp-progress {
+  overflow: hidden;
+  background-color: #ddd;
+}
+.jp-audio .jp-progress {
+  position: absolute;
+  top: 32px;
+  height: 15px;
+}
+.jp-audio .jp-type-single .jp-progress {
+  left: 110px;
+  width: 186px;
+}
+.jp-audio .jp-type-playlist .jp-progress {
+  left: 166px;
+  width: 130px;
+}
+.jp-video .jp-progress {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+}
+/* @end */
+/* @group volume controls */
+.jp-state-no-volume .jp-volume-controls {
+  display: none;
+}
+.jp-volume-controls {
+  position: absolute;
+  top: 32px;
+  left: 308px;
+  width: 200px;
+}
+.jp-audio-stream .jp-volume-controls {
+  left: 70px;
+}
+.jp-video .jp-volume-controls {
+  top: 12px;
+  left: 50px;
+}
+.jp-volume-controls button {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  text-indent: -9999px;
+  border: none;
+  cursor: pointer;
+}
+.jp-mute,
+.jp-volume-max {
+  width: 18px;
+  height: 15px;
+}
+.jp-volume-max {
+  left: 74px;
+}
+/* @end */
+/* @group current time and duration */
+.jp-audio .jp-time-holder {
+  position: absolute;
+  top: 50px;
+}
+.jp-audio .jp-type-single .jp-time-holder {
+  left: 110px;
+  width: 186px;
+}
+.jp-audio .jp-type-playlist .jp-time-holder {
+  left: 166px;
+  width: 130px;
+}
+.jp-current-time,
+.jp-duration {
+  width: 60px;
+  font-size: .64em;
+  font-style: oblique;
+}
+.jp-current-time {
+  float: left;
+  display: inline;
+  cursor: default;
+}
+.jp-duration {
+  float: right;
+  display: inline;
+  text-align: right;
+  cursor: pointer;
+}
+.jp-video .jp-current-time {
+  margin-left: 20px;
+}
+.jp-video .jp-duration {
+  margin-right: 20px;
+}
+/* @end */
+/* @group playlist */
+.jp-details {
+  font-weight: bold;
+  text-align: center;
+  cursor: default;
+}
+.jp-details,
+.jp-playlist {
+  width: 100%;
+  background-color: #ccc;
+  border-top: 1px solid #009be3;
+}
+.jp-type-single .jp-details,
+.jp-type-playlist .jp-details {
+  border-top: none;
+}
+.jp-details .jp-title {
+  margin: 0;
+  padding: 5px 20px;
+  font-size: .72em;
+  font-weight: bold;
+}
+.jp-playlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  font-size: .72em;
+}
+.jp-playlist li {
+  padding: 5px 0 4px 20px;
+  border-bottom: 1px solid #eee;
+}
+.jp-playlist li div {
+  display: inline;
+}
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+div.jp-type-playlist div.jp-playlist li:last-child {
+  padding: 5px 0 5px 20px;
+  border-bottom: none;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 7px;
+}
+div.jp-type-playlist div.jp-playlist a {
+  color: #333;
+  text-decoration: none;
+}
+div.jp-type-playlist div.jp-playlist a:hover {
+  color: #0d88c1;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
+  color: #0d88c1;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+  float: right;
+  display: inline;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #666;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
+  color: #0d88c1;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+  float: right;
+  display: inline;
+  text-align: right;
+  margin-right: 10px;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a {
+  color: #666;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {
+  color: #0d88c1;
+}
+span.jp-artist {
+  font-size: .8em;
+  color: #666;
+}
+/* @end */
+.jp-video-play {
+  width: 100%;
+  overflow: hidden;
+  /* Important for nested negative margins to work in modern browsers */
+  cursor: pointer;
+  background-color: transparent;
+  /* Makes IE9 work with the active area over the whole video area. IE6/7/8 only have the button as active area. */
+}
+.jp-video-270p .jp-video-play {
+  margin-top: -270px;
+  height: 270px;
+}
+.jp-video-360p .jp-video-play {
+  margin-top: -360px;
+  height: 360px;
+}
+.jp-video-full .jp-video-play {
+  height: 100%;
+}
+.jp-jplayer audio,
+.jp-jplayer {
+  width: 0px;
+  height: 0px;
+}
+.jp-jplayer {
+  background-color: #000000;
+}
+/* @group TOGGLES */
+/* The audio toggles are nested inside jp-time-holder */
+.jp-toggles {
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.jp-audio .jp-type-single .jp-toggles {
+  width: 25px;
+}
+.jp-audio .jp-type-playlist .jp-toggles {
+  width: 55px;
+  margin: 0;
+  position: absolute;
+  left: 325px;
+  top: 50px;
+}
+.jp-video .jp-toggles {
+  position: absolute;
+  right: 16px;
+  margin: 0;
+  margin-top: 10px;
+  width: 100px;
+}
+.jp-toggles button {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 18px;
+  text-indent: -9999px;
+  line-height: 100%;
+  /* need this for IE6 */
+  border: none;
+  cursor: pointer;
+}
+/* @end */
+/* @group NO SOLUTION error feedback */
+.jp-no-solution {
+  padding: 5px;
+  font-size: .8em;
+  background-color: #eee;
+  border: 2px solid #009be3;
+  color: #000;
+  display: none;
+}
+.jp-no-solution a {
+  color: #000;
+}
+.jp-no-solution span {
+  font-size: 1em;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+/* @end */

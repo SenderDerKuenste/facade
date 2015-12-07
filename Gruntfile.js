@@ -35,6 +35,7 @@ module.exports = function(grunt) {
             all: {
                 files: {
                     '<%= assetspath %>/js/app.js': [
+                        
                         './src/js/*.js'
                     ],
                 }
